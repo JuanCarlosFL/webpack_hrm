@@ -39,6 +39,20 @@ module.exports = {
 }
 ```
 
+In the principal file (app.js) we have add this.
+When a change inside div.js is detected we tell webpack to accept the updated module
+
+```
+if (module.hot){
+    module.hot.accept('./components/div.js', () =>{
+        const newComponent = DIV();
+        document.body.replaceChild(newComponent, divComponent);
+
+        divComponent = newComponent;
+    })
+}
+```
+
 now start running the script and in the browser go to localhost:8085
 
 For test if is working we can write in the input text and change the text in div.js when we save the changes the text will be updated and don't loose the input focus
