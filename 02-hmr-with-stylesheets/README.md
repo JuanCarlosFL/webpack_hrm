@@ -39,6 +39,8 @@ And add style for the text
 divComponent.classList.add('text-color');
 ```
 
+Create the file styles.css
+
 ```css
 .text-color {
     color: red;
@@ -48,6 +50,10 @@ body{
     background-color: blue;
 }
 ```
+
+And we can start the project 
+
+```npm run start:dev```
 
 Now we can change de color to blue and the background-color to red 
 the changes will be updated without lost the input focus
