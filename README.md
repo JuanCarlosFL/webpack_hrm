@@ -41,4 +41,6 @@ module.exports = {
 
 now start running the script and in the browser go to localhost:8085
 
-if we change the text
+For test if is working we can write in the input text and change the text in div.js when we save the changes the text will be updated and don't loose the input focus
+
+
