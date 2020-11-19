@@ -4,12 +4,12 @@ We will start from sample 01 Update module js
 
 First let's install both loaders with the following command:
 
-```webpack
+```javascript
 npm install --save-dev style-loader css-loader```
 
 Now in the webpack.config.js let's update the configuration file to make use of the loader.
 
-```webpack
+```javascript
     module: {
         rules: [
           {
