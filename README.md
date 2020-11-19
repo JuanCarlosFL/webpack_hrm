@@ -42,8 +42,3 @@ module.exports = {
 now start running the script and in the browser go to localhost:8085
 
 For test if is working we can write in the input text and change the text in div.js when we save the changes the text will be updated and don't loose the input focus
-<<<<<<< HEAD
-
-
-=======
->>>>>>> c5dcc265620dfd402dd99d0c550502665985060d
