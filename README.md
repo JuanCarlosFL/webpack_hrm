@@ -1,4 +1,4 @@
-#The Most Easy example with HMR (Hot Module Replacement)
+The Most Easy example with HMR (Hot Module Replacement)
 
 Init the project
 
@@ -12,7 +12,7 @@ In the package.json create this script
 
 ```"start:dev": "webpack serve --mode development"```
 
-And now create the file webpack.config.js with this configuration
+And now create the file webpack.config.js with this configuration,
 very important to add in the dev server configuration the property hot to true
 
 ```
@@ -42,5 +42,8 @@ module.exports = {
 now start running the script and in the browser go to localhost:8085
 
 For test if is working we can write in the input text and change the text in div.js when we save the changes the text will be updated and don't loose the input focus
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c5dcc265620dfd402dd99d0c550502665985060d
