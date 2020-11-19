@@ -1,4 +1,4 @@
-###The Most Easy example with HMR (Hot Module Replacement)
+The Most Easy example with HMR (Hot Module Replacement)
 
 Init the project
 
